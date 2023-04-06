@@ -1,0 +1,36 @@
+.content-grid {
+	display: flex;
+	margin-top: 2%;
+	justify-content: flex-start;
+}
+.grid-date {
+	@include grillaTeam( $mainColor,300px,100px);
+	margin-left: 0.5%;
+}
+.grid-icon {
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+.grid-team {
+	@include grillaTeam(rgb(216, 113, 113),300px,100px,true)
+}
+.grid-span {
+	font-size: 1.7rem;
+	margin-top: 13%;
+	margin-left: 5%;
+	color: white;
+}
+.gridVS {
+	@include grillaTeam($mainColor,220px,100px,true);
+	color: white;
+}
+.grid-span-vs {
+	font-size: 3rem;
+	margin-top: 13%;
+	text-align: center;
+	vertical-align: center;
+}
+h3 {
+	font-size: 1.6rem;
+}

@@ -1,0 +1,73 @@
+.imgCard {
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+	flex-wrap: wrap;
+}
+.card-trabajo {
+	@extend .cardTrabajo;
+}
+.cardVitanova {
+	@include imagen-fondo(url(../../img/Vitanova.jpg));
+}
+.cardEventicon {
+	@include imagen-fondo(url(../../img/Eventicon.jpeg));
+}
+.cardFernet1882 {
+	@include imagen-fondo(url(../../img/Fernet1882.jpeg));
+}
+.cardGrupoArcor {
+	@include imagen-fondo(url(../../img/GrupoArcor.jpeg));
+}
+
+a {
+	margin-left: 2rem;
+	color: $mainColor;
+}
+
+.card-body {
+	padding: 20px;
+}
+.card-subtitle {
+	font-size: 1.9rem;
+	font-weight: bold;
+	margin-top: 1.5%;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	color: black;
+}
+.statics {
+	text-decoration: none;
+}
+
+.mouseover-body {
+	@include borders($mainColor,1px,4%);
+	box-shadow: 5px 5px 10px $mainColor;
+	margin-top: 2%;
+	margin-left: 2%;
+	&:hover {
+		background-color: $mainColor;
+		color: white;
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transform: scale(1.1);
+		a {
+			color: white;
+		}
+		.card-subtitle {
+			color: white;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
