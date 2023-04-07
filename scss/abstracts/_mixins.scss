@@ -3,7 +3,7 @@
     border-radius: $porcentaje;
 }
 
-@mixin imagen-fondo($imagen:url(../Imagenes/max.png)){
+@mixin imagen-fondo($imagen:url()){
     background-image: $imagen;
 }
 

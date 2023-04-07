@@ -4,21 +4,6 @@
 	margin-top: 2%;
 	flex-wrap: wrap;
 }
-.card-trabajo {
-	@extend .cardTrabajo;
-}
-.cardVitanova {
-	@include imagen-fondo(url(../../img/Vitanova.jpg));
-}
-.cardEventicon {
-	@include imagen-fondo(url(../../img/Eventicon.jpeg));
-}
-.cardFernet1882 {
-	@include imagen-fondo(url(../../img/Fernet1882.jpeg));
-}
-.cardGrupoArcor {
-	@include imagen-fondo(url(../../img/GrupoArcor.jpeg));
-}
 
 a {
 	margin-left: 2rem;
@@ -35,6 +20,14 @@ a {
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
 	color: black;
+	.img-trabajo{
+		height: 300px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 300px;
+		background-position-x: center;
+		margin-top: 20px;
+	}
 }
 .statics {
 	text-decoration: none;
@@ -61,7 +54,6 @@ a {
 		}
 	}
 }
-
 
 
 
