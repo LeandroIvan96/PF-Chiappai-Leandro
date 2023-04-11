@@ -168,6 +168,11 @@ textarea {
       .content-servicio .servicio .servicio_description img {
         margin-top: 10%; }
 
+.fondoServicios {
+  background-size: cover;
+  height: 700px;
+  background-image: url(../img/Fondo-servicio.png); }
+
 .content-nosotros {
   display: flex;
   align-items: center;
@@ -195,9 +200,10 @@ textarea {
         width: 350px;
         height: 240px; }
 
-.fondo {
+.fondoNosotros {
   background-size: cover;
-  height: 700px; }
+  height: 700px;
+  background-image: url(../img/FondoNosotros.jpeg); }
 
 .imgCard {
   display: flex;
